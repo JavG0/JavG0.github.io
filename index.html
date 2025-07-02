@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="image/logo2.png" alt="OUTLINE STUDIO">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li><a href="videogame.html" class="nav-link">Videojuego</a></li>
+                <li><a href="animation.html" class="nav-link">Animación</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero inicio-hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-outline">OUTLINE</span>
+                    <span class="title-studio">STUDIO</span>
+                </h1>
+                <div class="subtitle-container">
+                    <div class="subtitle-background"></div>
+                    <p class="hero-subtitle">Creamos experiencias audiovisuales extraordinarias</p>
+                </div>
+                <p class="hero-description">
+                    Somos una empresa especializada en la producción de contenido audiovisual innovador, 
+                    desde videojuegos inmersivos hasta animaciones cautivadoras que trascienden los límites de la creatividad.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explorar Proyectos</a>
+                    <a href="#about" class="btn btn-secondary">Conocer Más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">QUIÉNES SOMOS</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Innovación en Cada Pixel</h3>
+                        <p>
+                            En Outline Studio, transformamos ideas en realidades visuales impactantes. 
+                            Nuestro equipo de creativos y técnicos especializados trabaja con las últimas 
+                            tecnologías para entregar proyectos que superan las expectativas.
+                        </p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Proyectos Completados</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2</span>
+                                <span class="stat-label">Años de Experiencia</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Satisfacción del Cliente</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="about-card">
+                            <h4>Nuestra Misión</h4>
+                            <p>Crear contenido audiovisual que inspire, emocione y conecte con las audiencias a nivel global.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">NUESTROS PROYECTOS</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="videogame">
+                        <div class="project-image">
+                            <img src="image/Arkane odisey.png" alt="Proyecto Videojuego">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>ARKANE ODYSSEY</h3>
+                                    <p>Videojuego de Exploración y aventura</p>
+                                    <a href="videogame.html" class="btn btn-primary">Ver Proyecto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Experiencia Gaming Inmersiva</h4>
+                            <p>Un mundo de fantasia lleno de magia criaturas extrañas y misterios por resolver</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-project="animation">
+                        <div class="project-image">
+                            <img src="image/arla.png" alt="Proyecto Animación">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h3>ARLA AND THE HOLLOW STAR</h3>
+                                    <p>Serie Animada Original</p>
+                                    <a href="animation.html" class="btn btn-primary">Ver Proyecto</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Animación Indie</h4>
+                            <p>Una historia épica sobre magia, comedia y... furros?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services">
+            <div class="container">
+                <h2 class="section-title">NUESTROS SERVICIOS</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">🎮</div>
+                        <h3>Desarrollo de Videojuegos</h3>
+                        <p>Creamos experiencias interactivas únicas con gameplay innovador y gráficos impresionantes.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🎬</div>
+                        <h3>Producción Audiovisual</h3>
+                        <p>Desde conceptualización hasta post-producción, manejamos todos los aspectos de la creación audiovisual.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">✨</div>
+                        <h3>Animación 2D/3D</h3>
+                        <p>Damos vida a personajes e historias con técnicas de animación de última generación.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🎨</div>
+                        <h3>Diseño Visual</h3>
+                        <p>Creamos identidades visuales impactantes que comunican la esencia de cada proyecto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OUTLINE STUDIO</h3>
+                    <p>Creando el futuro del entretenimiento audiovisual.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>info@outlinestudio.com</p>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Outline Studio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
