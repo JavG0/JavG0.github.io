@@ -1242,6 +1242,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .circle {
+    visibility: hidden;
+  }
+
   .hamburger {
     display: flex;
   }
@@ -1353,6 +1357,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .circle {
+    visibility: hidden;
+  }
+  
   .hero-title {
     font-size: 2.5rem;
   }
