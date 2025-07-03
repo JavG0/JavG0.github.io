@@ -384,6 +384,12 @@ body {
   margin-bottom: 2rem;
 }
 
+.about-visual:hover,
+.about-card:hover {
+  transform: scale(1.03);
+  transition: 0.5s ease-out;
+}
+
 .stats {
   display: flex;
   gap: 2rem;
@@ -745,6 +751,12 @@ body {
   border-bottom: none;
 }
 
+.game-stats:hover,
+.animation-stats:hover {
+  transform: scale(1.03);
+  transition: 0.5s ease-out;
+}
+
 /* Gallery */
 .screenshots,
 .art-gallery {
@@ -835,6 +847,7 @@ body {
   justify-content: center;
   gap: 1rem;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
 .tab-button {
@@ -845,6 +858,9 @@ body {
   border-radius: 25px;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: auto;
+  min-width: 120px;
+  text-align: center;
 }
 
 .tab-button.active,
@@ -910,6 +926,12 @@ body {
   line-height: 1.6;
 }
 
+.character-card:hover,
+.character-image:hover {
+  transform: scale(1.15);
+  transition: 0.5s ease-out;
+}
+
 /* Story Elements */
 .story-elements {
   margin-top: 3rem;
@@ -945,7 +967,18 @@ body {
   font-size: 0.9rem;
 }
 
+.element-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-out;
+}
+
 /* Timeline */
+.timeline-item:hover,
+.timeline-content:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-out;
+}
+
 .timeline {
   padding: 100px 0;
   background: var(--darker-bg);
@@ -1119,6 +1152,12 @@ body {
 .release-info {
   margin-top: 2rem;
   color: #cccccc;
+}
+
+.watch-section:hover,
+.watch-card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-out;
 }
 
 /* Modal */
@@ -1376,6 +1415,11 @@ body {
   .purchase-card,
   .watch-card {
     padding: 2rem;
+  }
+
+  .purchase-card h2,
+  .watch-card h2 {
+    font-size: 1.7rem;
   }
 
   .gallery-grid,
