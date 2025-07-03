@@ -1066,7 +1066,7 @@ body {
 .purchase-card h2,
 .watch-card h2 {
   font-family: "Orbitron", monospace;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
