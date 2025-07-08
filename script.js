@@ -314,7 +314,9 @@ function animateProgressBars() {
 
     setTimeout(() => {
       bar.style.width = width
-    }, 500)
+    }, 
+    bar.style.transition = "1s ease",
+    1000)
   })
 }
 
@@ -409,4 +411,24 @@ document.addEventListener("DOMContentLoaded", () => {
   images.forEach((img) => {
     imageObserver.observe(img)
   })
+})
+
+/* input animation */
+const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+    let parent = this.parentNode;
+    parent.classList.add("focus");
+}
+
+function blurFunc() {
+    let parent = this.parentNode;
+    if (this.value == "") {
+        parent.classList.remove("focus");
+    } 
+}
+
+inputs.forEach((input) => {
+    input.addEventListener("focus", focusFunc);
+    input.addEventListener("blur", blurFunc); 
 })
